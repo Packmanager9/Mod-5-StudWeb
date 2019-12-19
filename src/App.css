@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,9 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.Question {
+  padding: 1px;
+  margin: 1px;
+  background-color: #ffde00;
+  width: 100%;
+  color: #333;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
 }
+
+
+
+
+
+.slider-squarex {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 100%;
+  height: 33px;
+  background: #000000;
+  outline: none;
+  opacity:0.7;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+.slider-squarex:hover {
+  opacity:1;
+}
+.slider-squarex::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 33px;
+  background: #FF0000;
+  cursor: pointer;
+}
+.slider-squarex::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+
